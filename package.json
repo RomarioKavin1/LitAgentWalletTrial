@@ -1,0 +1,20 @@
+{
+  "name": "lit-agent-wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@lit-protocol/auth-helpers": "^7.0.6",
+    "@lit-protocol/contracts-sdk": "^7.0.6",
+    "@lit-protocol/lit-auth-client": "^7.0.6",
+    "@lit-protocol/lit-node-client": "^7.0.6",
+    "@lit-protocol/pkp-ethers": "^7.0.6",
+    "dotenv": "^16.4.7",
+    "ethers": "5.7.2",
+    "typescript": "^5.7.3"
+  }
+}
